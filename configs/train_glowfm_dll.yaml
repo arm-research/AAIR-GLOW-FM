@@ -1,0 +1,103 @@
+logging:
+  checkpoint_dir: outputs/pl_runs
+  checkpoint_every_n_epochs: 10
+
+dataset:
+  name: DLL
+  path: /workspace/datasets/DLL_dataset
+
+dataloader:
+  num_workers: 8
+
+encoder:
+  class_name: models.encoders.AutoencoderTiny
+  vae_name: madebyollin/taesd3
+  final_std: 1.0
+  raw_mean: [1.56, -0.695, 0.483, 0.729]
+  raw_std: [5.27, 5.91, 4.21, 4.31]
+  use_fp16: false
+  use_compile: true
+  res: 32
+  dim_latent: 4
+
+network:
+  class_name: models.wrapper.TVMWHDiTWrapperJVP
+  model_type: "hdit-jvp_XL2lat16"
+  data_type: fp32
+  compile: false
+
+loss:
+  ts_dist: uniform_t_and_s
+  ts_dist_uniform_type: stratified
+  use_time_gap: false
+  gap_P_mean: 0.0
+  gap_P_std: 1.0
+  s_P_mean: 0.0
+  s_P_std: 1.0
+
+optimizer:
+  class_name: torch.optim.AdamW
+  lr: 1e-5
+  betas: [0.9, 0.95]
+  eps: 1e-8
+  weight_decay: 0.01
+
+scheduler:
+  enable: true
+  warmup_steps: 5000
+  total_steps: 100000
+  min_lr_ratio: 0.01
+
+training:
+  batch_size: 16
+  batch_gpu: 2
+  val_batch_gpu: 1
+  cudnn_benchmark: true
+  enable_tf32: false
+  metrics: ["psnr", "ssim", "lpips", "niqe", "musiq"]
+  match_gt_mean: false
+  num_steps_arr: [1]
+  seed: 0
+  max_grad_norm: 1.0
+  ema_beta: 0.9999
+  ema_target_beta: 0.9999
+
+validation:
+  primary_sampler: jump
+  samplers: [jump]
+
+hydra:
+  output_subdir: null
+  run:
+    dir: .
+
+ir:
+  sigma_lq: 0.01
+  input_res: 2048
+  val_input_res: -1
+
+loss_weighting:
+  warmup_epochs: 0
+  alpha_final: 1.0
+  mode: ramp
+  ramp_steps: 10000
+  warmup_steps: 5000
+
+
+pl:
+  accelerator: gpu
+  devices: 8
+  strategy: ddp
+  num_nodes: 1
+  precision: "32"
+  benchmark: false
+  deterministic: true
+  max_steps: -1
+  max_epochs: 1000
+  accumulate_grad_batches: 1
+  log_every_n_steps: 10
+  check_val_every_n_epoch: 1
+  fast_dev_run: false
+  limit_train_batches: 1.0
+  limit_val_batches: 1.0
+  num_sanity_val_steps: 0

@@ -1,0 +1,29 @@
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+torch==2.7.1+cu126
+torchvision==0.22.1+cu126
+torchaudio==2.7.1+cu126
+torchmetrics==0.10.2
+pyiqa==0.1.14.1
+icecream==2.1.10
+opencv-python==5.0.0.93
+opencv-python-headless==5.0.0.93
+pillow==12.0.0
+numpy==2.3.5
+matplotlib==3.10.8
+scikit-image==0.26.0
+huggingface-hub==0.36.0
+einops==0.8.1
+pytorch-lightning==2.6.0
+pandas==2.3.3
+ema-pytorch==0.7.9
+omegaconf==2.3.0
+hydra-core==1.3.2
+jaxtyping==0.3.2
+setuptools==80.9.0
+diffusers==0.31.0
+transformers==4.37.2
+pyarrow==23.0.1
+psutil==7.2.2
+flash-attn==2.8.3
+natten @ git+https://github.com/SHI-Labs/NATTEN.git@9c44c48c2eb0b97f9bb1a014a468c45691a487fe
