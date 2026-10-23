@@ -1,0 +1,906 @@
+[
+  {
+    "dataset": "LSD-U",
+    "figure": 10,
+    "scene": "Scene 1",
+    "images": [
+      {
+        "src": "assets/comparisons/00-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/00-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/00-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/00-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/00-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-U",
+    "figure": 10,
+    "scene": "Scene 2",
+    "images": [
+      {
+        "src": "assets/comparisons/01-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/01-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/01-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/01-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/01-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-U",
+    "figure": 10,
+    "scene": "Scene 3",
+    "images": [
+      {
+        "src": "assets/comparisons/02-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/02-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/02-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/02-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/02-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-U",
+    "figure": 10,
+    "scene": "Scene 4",
+    "images": [
+      {
+        "src": "assets/comparisons/03-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/03-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/03-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/03-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/03-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-U",
+    "figure": 10,
+    "scene": "Scene 5",
+    "images": [
+      {
+        "src": "assets/comparisons/04-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/04-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/04-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/04-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/04-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "UHD-LOL4K",
+    "figure": 11,
+    "scene": "017_walking_frame00003",
+    "images": [
+      {
+        "src": "assets/comparisons/05-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/05-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/05-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/05-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/05-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/05-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "UHD-LOL4K",
+    "figure": 11,
+    "scene": "017_walking_frame00004",
+    "images": [
+      {
+        "src": "assets/comparisons/06-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/06-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/06-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/06-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/06-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/06-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "UHD-LOL4K",
+    "figure": 11,
+    "scene": "017_walking_frame00016",
+    "images": [
+      {
+        "src": "assets/comparisons/07-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/07-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/07-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/07-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/07-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/07-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "UHD-LOL4K",
+    "figure": 11,
+    "scene": "017_walking_frame00037",
+    "images": [
+      {
+        "src": "assets/comparisons/08-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/08-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/08-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/08-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/08-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/08-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "UHD-LOL4K",
+    "figure": 11,
+    "scene": "017_walking_frame00086",
+    "images": [
+      {
+        "src": "assets/comparisons/09-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/09-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/09-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/09-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/09-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/09-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LOL-v1",
+    "figure": 12,
+    "scene": "179",
+    "images": [
+      {
+        "src": "assets/comparisons/10-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/10-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/10-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/10-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/10-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/10-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LOL-v1",
+    "figure": 12,
+    "scene": "22",
+    "images": [
+      {
+        "src": "assets/comparisons/11-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/11-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/11-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/11-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/11-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/11-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LOL-v1",
+    "figure": 12,
+    "scene": "493",
+    "images": [
+      {
+        "src": "assets/comparisons/12-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/12-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/12-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/12-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/12-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/12-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LOL-v1",
+    "figure": 12,
+    "scene": "669",
+    "images": [
+      {
+        "src": "assets/comparisons/13-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/13-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/13-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/13-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/13-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/13-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LOL-v1",
+    "figure": 12,
+    "scene": "748",
+    "images": [
+      {
+        "src": "assets/comparisons/14-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/14-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/14-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/14-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/14-4.webp",
+        "method": "GLOW-FM"
+      },
+      {
+        "src": "assets/comparisons/14-5.webp",
+        "method": "GT"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 13,
+    "scene": "059_DEO_11",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-0-clean.webp",
+        "method": "Input",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_11-5-clean.webp",
+        "method": "GT",
+        "source": "figure-08/row-01_DEO_11/fig08_row01_DEO_11__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 13,
+    "scene": "104_DLI_5",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-0-clean.webp",
+        "method": "Input",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__04_WCDM.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_5-5-clean.webp",
+        "method": "GT",
+        "source": "figure-08/row-02_DLI_5/fig08_row02_DLI_5__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 13,
+    "scene": "047_DEI_48",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-0-clean.webp",
+        "method": "Input",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dei_48-5-clean.webp",
+        "method": "GT",
+        "source": "figure-08/row-03_DEI_48/fig08_row03_DEI_48__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 13,
+    "scene": "116_DLI_18",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-0-clean.webp",
+        "method": "Input",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_18-5-clean.webp",
+        "method": "GT",
+        "source": "figure-08/row-04_DLI_18/fig08_row04_DLI_18__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 14,
+    "scene": "118_DLI_21",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-0-clean.webp",
+        "method": "Input",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_21-5-clean.webp",
+        "method": "GT",
+        "source": "figure-09/row-01_DLI_21/fig09_row01_DLI_21__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 14,
+    "scene": "144_DLI_50",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-0-clean.webp",
+        "method": "Input",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dli_50-5-clean.webp",
+        "method": "GT",
+        "source": "figure-09/row-02_DLI_50/fig09_row02_DLI_50__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 14,
+    "scene": "167_DLO_20",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-0-clean.webp",
+        "method": "Input",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__04_WCDM.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-dlo_20-5-clean.webp",
+        "method": "GT",
+        "source": "figure-09/row-03_DLO_20/fig09_row03_DLO_20__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LSD-DLL",
+    "figure": 14,
+    "scene": "053_DEO_5",
+    "images": [
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-0-clean.webp",
+        "method": "Input",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__01_input_low_light.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-1-clean.webp",
+        "method": "ReDDiT",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__02_ReDDiT.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-2-clean.webp",
+        "method": "PyDiff",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__03_PyDiff.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-3-clean.webp",
+        "method": "WCDM",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__04_WCDM.jpg"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-4-clean.webp",
+        "method": "GLOW-FM",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__05_ours_GLOW-FM-XL.png"
+      },
+      {
+        "src": "assets/comparisons/lsd-dll-deo_5-5-clean.webp",
+        "method": "GT",
+        "source": "figure-09/row-04_DEO_5/fig09_row04_DEO_5__06_ground_truth.jpg"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "MEF",
+    "figure": 15,
+    "scene": "chinese_garden3",
+    "images": [
+      {
+        "src": "assets/comparisons/23-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/23-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/23-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/23-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/23-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "VV",
+    "figure": 15,
+    "scene": "P1000205",
+    "images": [
+      {
+        "src": "assets/comparisons/24-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/24-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/24-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/24-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/24-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "NPE",
+    "figure": 15,
+    "scene": "birds",
+    "images": [
+      {
+        "src": "assets/comparisons/25-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/25-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/25-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/25-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/25-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "LIME",
+    "figure": 15,
+    "scene": "8",
+    "images": [
+      {
+        "src": "assets/comparisons/26-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/26-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/26-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/26-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/26-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  },
+  {
+    "dataset": "DICM",
+    "figure": 15,
+    "scene": "38",
+    "images": [
+      {
+        "src": "assets/comparisons/27-0.webp",
+        "method": "Input"
+      },
+      {
+        "src": "assets/comparisons/27-1.webp",
+        "method": "ReDDiT"
+      },
+      {
+        "src": "assets/comparisons/27-2.webp",
+        "method": "PyDiff"
+      },
+      {
+        "src": "assets/comparisons/27-3.webp",
+        "method": "WCDM"
+      },
+      {
+        "src": "assets/comparisons/27-4.webp",
+        "method": "GLOW-FM"
+      }
+    ],
+    "boxed": false
+  }
+]
