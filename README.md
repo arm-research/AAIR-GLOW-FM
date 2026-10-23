@@ -1,5 +1,7 @@
 # GLOW-FM
 
+Accepted to **WACV 2027, Algorithm Track** · [Paper on arXiv](https://arxiv.org/abs/2610.31222v1)
+
 Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching.
 
 GLOW-FM enhances low-light images by transporting their representations directly
@@ -131,3 +133,19 @@ This project builds upon and is inspired by:
 
 Please refer to the respective repositories and per-file source headers for
 license details and usage terms.
+
+## Citation
+
+If you find this work useful, please consider citing our paper:
+
+```bibtex
+@misc{lapid2026glowfmefficientgenerativelowlight,
+      title={GLOW-FM: Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching},
+      author={Ariel Lapid and Yuval Haitman and Reuven Peretz and Arnon Netzer and Idit Diamant},
+      year={2026},
+      eprint={2610.31222},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2610.31222},
+}
+```
