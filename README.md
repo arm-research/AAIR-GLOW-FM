@@ -1,33 +1,62 @@
-# GLOW-FM
+<h1 align="center">
+  GLOW-FM<br>
+  Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching
+</h1>
 
-Accepted to **WACV 2027, Algorithm Track** · [Paper on arXiv](https://arxiv.org/abs/2610.31222v1)
+<p align="center"><strong>WACV 2027 · Algorithm Track</strong></p>
 
-Efficient Generative Low-Light Image Enhancement with One-Step Latent Flow Matching.
+<p align="center">
+  Ariel Lapid<sup>*</sup>, Yuval Haitman<sup>*</sup>, Reuven Peretz, Arnon Netzer, Idit Diamant<br>
+  Arm AI Research (AAIR), Arm Ltd<br>
+  <sub>* Equal contribution</sub>
+</p>
 
-GLOW-FM enhances low-light images by transporting their representations directly
-to well-exposed representations in a compact latent space. A frozen TAESD
-provides efficient image encoding and decoding, while an HDiT model learns a
-single-step latent displacement using Flow Matching and Terminal Velocity
-Matching (TVM).
+<p align="center">
+  <a href="https://arxiv.org/abs/2610.31222v1">📄 Paper</a> ·
+  <a href="https://arm-research.github.io/AAIR-GLOW-FM/">🌐 Project Page</a> ·
+  <a href="#citation">📚 Citation</a>
+</p>
 
-## Method Overview
+## TL;DR
 
-- **Latent-space enhancement:** paired low-light and normal-light images are
-  encoded by a frozen TAESD.
-- **Flow Matching:** the model learns the instantaneous velocity along a linear
-  path between normal-light and noise-perturbed low-light latents.
-- **Terminal Velocity Matching:** a two-time HDiT learns finite displacements
-  between arbitrary points on that path, supervised by an EMA teacher.
-- **One-step inference:** the encoded low-light image is transported directly
-  from `t=1` to `t=0` in one network evaluation and decoded to image space.
+GLOW-FM combines a lightweight Tiny-VAE encoder with an
+[Hourglass Diffusion Transformer (HDiT)](https://arxiv.org/abs/2401.11605)
+architecture to perform efficient enhancement in a compact latent space.
+Trained with [Terminal Velocity Matching (TVM)](https://arxiv.org/abs/2511.19797),
+the HDiT restores low-light latents in a single step. Together, the compact
+architecture and single-step inference enable efficient generative low-light
+image enhancement.
 
-## Pipeline
+| Low-light input | GLOW-FM | Ground truth |
+|:---:|:---:|:---:|
+| ![Low-light kitchen scene](docs/assets/scene16-input.webp) | ![Kitchen scene enhanced by GLOW-FM](docs/assets/scene16-glowfm.webp) | ![Ground-truth kitchen scene](docs/assets/scene16-gt.webp) |
+
+<p align="center">
+  Low-light input, GLOW-FM enhancement, and ground truth (GT) on LSD-DLL.
+</p>
+
+## Highlights
+
+1. **Efficient generative enhancement.** Compact latent flow matching delivers
+   one-step restoration at low computational cost.
+2. **TVM for image restoration.** Adapted to low-light enhancement and validated
+   against alternative one-step objectives in matched comparisons.
+3. **Strong generalization.** State-of-the-art cross-dataset results among the
+   compared methods, with competitive image quality.
+
+> 🏆 GLOW-FM extends our [LFM-LLIE](https://arm-research.github.io/AAIR-LFM-LLIE/),
+> which won <strong>1<sup>st</sup> place</strong> in the
+> [NTIRE 2026 Low-Light Image Enhancement Challenge](https://arxiv.org/abs/2604.17669)
+> at CVPR 2026.
+
+## Method
 
 ![GLOW-FM training pipeline](docs/assets/glowfm_pipeline.png)
 
-During training, GLOW-FM jointly learns the flow-matching velocity and the
-terminal-velocity displacement. During inference, only the low-light image,
-the frozen encoder and decoder, and one HDiT evaluation are required.
+A frozen Tiny-VAE maps images into a compact latent space. An HDiT parameterizes
+a two-time displacement model trained with flow matching and Terminal Velocity
+Matching. At inference, GLOW-FM encodes the input, restores its latent
+representation in one network evaluation, and decodes the enhanced image.
 
 ## Quick Start
 
